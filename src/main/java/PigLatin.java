@@ -51,7 +51,7 @@ public class PigLatin {
   {
     return sWord + "way";
   }
-  else if(sWord.substring(0,2) == "qu")
+  else if(sWord.substring(0,2).equals("qu"))
   {
     return sWord.substring(2) + "quay";
   }
